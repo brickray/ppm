@@ -1,0 +1,9 @@
+﻿生成启动时间为 2018/8/13 10:19:00。
+     1>项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'E:/RayTracing/GPUPathTracing/lib/freeglut-3.0.0/ZERO_CHECK.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(399,5): error MSB3191: 无法创建目录“E:\RayTracing\GPUPathTracing\lib\freeglut-3.0.0\bin\Release\”。未能找到路径“E:\RayTracing\GPUPathTracing\lib\freeglut-3.0.0\bin\Release\”的一部分。
+     1>已完成生成项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.01

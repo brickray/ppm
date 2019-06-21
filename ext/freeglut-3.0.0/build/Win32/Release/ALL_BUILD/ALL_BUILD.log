@@ -1,0 +1,10 @@
+﻿生成启动时间为 2018/8/13 10:25:19。
+     1>项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\ALL_BUILD.vcxproj”在节点 8 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt
+         CMake does not need to re-run because D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp is up-to-date.
+     1>已完成生成项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\ALL_BUILD.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.61

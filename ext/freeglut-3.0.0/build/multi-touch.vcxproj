@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4411F1F2-0FB3-31D5-A33B-E2B23FECFA44}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>multi-touch</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">multi-touch.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">multi-touchd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">multi-touch.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">multi-touch</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">multi-touch.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">multi-touch</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">multi-touch.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">multi-touch</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;winmm.lib;lib\Debug\freeglutd.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/lib/Debug/multi-touchd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/bin/Debug/multi-touchd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;winmm.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/lib/Release/multi-touch.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/bin/Release/multi-touch.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/lib/MinSizeRel/multi-touch.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/bin/MinSizeRel/multi-touch.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0500;WINVER=0x0500;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/lib/RelWithDebInfo/multi-touch.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/bin/RelWithDebInfo/multi-touch.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\compiler\CMake\bin\cmake.exe -HD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0 -BD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build --check-stamp-file D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_version.h.in;D:\compiler\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\config.h.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.rc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\freeglutdll.def.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.pc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\compiler\CMake\bin\cmake.exe -HD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0 -BD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build --check-stamp-file D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_version.h.in;D:\compiler\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\config.h.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.rc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\freeglutdll.def.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.pc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\compiler\CMake\bin\cmake.exe -HD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0 -BD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build --check-stamp-file D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_version.h.in;D:\compiler\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\config.h.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.rc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\freeglutdll.def.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.pc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\compiler\CMake\bin\cmake.exe -HD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0 -BD:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build --check-stamp-file D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_version.h.in;D:\compiler\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\compiler\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\config.h.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.rc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\freeglutdll.def.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\freeglut.pc.in;D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\progs\demos\multi-touch\multi-touch.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/ZERO_CHECK.vcxproj">
+      <Project>7A6DEF56-8EE9-36C3-8656-7895DFAC933D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/build/freeglut.vcxproj">
+      <Project>5AA43A07-B4CF-3937-8350-DCA7AE936EC1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

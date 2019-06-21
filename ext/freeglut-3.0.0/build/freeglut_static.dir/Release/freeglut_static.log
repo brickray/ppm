@@ -1,0 +1,98 @@
+﻿生成启动时间为 2018/8/13 10:24:54。
+     1>项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\freeglut_static.vcxproj”在节点 3 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/programming/raytracing/brick_ray/ext/freeglut-3.0.0/CMakeLists.txt
+         CMake does not need to re-run because D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src" /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include" /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WIN32_WINNT=0x0500 /D WINVER=0x0500 /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freeglut_static.dir\Release\\" /Fd"freeglut_static.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_callbacks.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_cursor.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_display.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_ext.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_font_data.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_gamemode.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_geometry.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_gl2.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_init.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_input_devices.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_joystick.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_main.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_misc.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_overlay.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_spaceball.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_state.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_stroke_mono_roman.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_stroke_roman.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_structure.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_teapot.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_videoresize.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_window.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_font.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_menu.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_cursor_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_display_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_ext_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_gamemode_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_init_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_input_devices_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_joystick_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_main_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_menu_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_spaceball_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_state_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_structure_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\mswin\fg_window_mswin.c" "D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\util\xparsegeometry_repl.c"
+         fg_callbacks.c
+         fg_cursor.c
+         fg_display.c
+         fg_ext.c
+         fg_font_data.c
+         fg_gamemode.c
+         fg_geometry.c
+         fg_gl2.c
+         fg_init.c
+         fg_input_devices.c
+         fg_joystick.c
+         fg_main.c
+         fg_misc.c
+         fg_overlay.c
+         fg_spaceball.c
+         fg_state.c
+         fg_stroke_mono_roman.c
+         fg_stroke_roman.c
+         fg_structure.c
+         fg_teapot.c
+     1>D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src\fg_teapot.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         fg_videoresize.c
+         fg_window.c
+         fg_font.c
+         fg_menu.c
+         fg_cursor_mswin.c
+         fg_display_mswin.c
+         fg_ext_mswin.c
+         fg_gamemode_mswin.c
+         fg_init_mswin.c
+         fg_input_devices_mswin.c
+         fg_joystick_mswin.c
+         fg_main_mswin.c
+         fg_menu_mswin.c
+         fg_spaceball_mswin.c
+         fg_state_mswin.c
+         fg_structure_mswin.c
+         fg_window_mswin.c
+         fgSetupPixelFormat(): there is still some work to do here!
+         xparsegeometry_repl.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WIN32_WINNT=0x0500 /D WINVER=0x0500 /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\src" /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\include" /I"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build" /nologo /fo"freeglut_static.dir\Release\freeglut.res" D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\freeglut.rc 
+       Lib:
+         D:\vs2013\VC\bin\Lib.exe /OUT:"D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\lib\Release\freeglut_static.lib" /NOLOGO  /machine:X86 freeglut_static.dir\Release\freeglut.res
+         freeglut_static.dir\Release\fg_callbacks.obj
+         freeglut_static.dir\Release\fg_cursor.obj
+         freeglut_static.dir\Release\fg_display.obj
+         freeglut_static.dir\Release\fg_ext.obj
+         freeglut_static.dir\Release\fg_font_data.obj
+         freeglut_static.dir\Release\fg_gamemode.obj
+         freeglut_static.dir\Release\fg_geometry.obj
+         freeglut_static.dir\Release\fg_gl2.obj
+         freeglut_static.dir\Release\fg_init.obj
+         freeglut_static.dir\Release\fg_input_devices.obj
+         freeglut_static.dir\Release\fg_joystick.obj
+         freeglut_static.dir\Release\fg_main.obj
+         freeglut_static.dir\Release\fg_misc.obj
+         freeglut_static.dir\Release\fg_overlay.obj
+         freeglut_static.dir\Release\fg_spaceball.obj
+         freeglut_static.dir\Release\fg_state.obj
+         freeglut_static.dir\Release\fg_stroke_mono_roman.obj
+         freeglut_static.dir\Release\fg_stroke_roman.obj
+         freeglut_static.dir\Release\fg_structure.obj
+         freeglut_static.dir\Release\fg_teapot.obj
+         freeglut_static.dir\Release\fg_videoresize.obj
+         freeglut_static.dir\Release\fg_window.obj
+         freeglut_static.dir\Release\fg_font.obj
+         freeglut_static.dir\Release\fg_menu.obj
+         freeglut_static.dir\Release\fg_cursor_mswin.obj
+         freeglut_static.dir\Release\fg_display_mswin.obj
+         freeglut_static.dir\Release\fg_ext_mswin.obj
+         freeglut_static.dir\Release\fg_gamemode_mswin.obj
+         freeglut_static.dir\Release\fg_init_mswin.obj
+         freeglut_static.dir\Release\fg_input_devices_mswin.obj
+         freeglut_static.dir\Release\fg_joystick_mswin.obj
+         freeglut_static.dir\Release\fg_main_mswin.obj
+         freeglut_static.dir\Release\fg_menu_mswin.obj
+         freeglut_static.dir\Release\fg_spaceball_mswin.obj
+         freeglut_static.dir\Release\fg_state_mswin.obj
+         freeglut_static.dir\Release\fg_structure_mswin.obj
+         freeglut_static.dir\Release\fg_window_mswin.obj
+         freeglut_static.dir\Release\xparsegeometry_repl.obj
+         freeglut_static.vcxproj -> D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\lib\Release\freeglut_static.lib
+     1>已完成生成项目“D:\programming\raytracing\brick_ray\ext\freeglut-3.0.0\build\freeglut_static.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.57
